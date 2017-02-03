@@ -7,7 +7,7 @@ class BoggleBoard{
   shake(dimensi){
     this.board=[];
     for (let line = 0; line < dimensi; line++) {
-       let lineValue=[];
+      let lineValue=[];
       for (var collum = 0; collum < dimensi; collum++) {
         lineValue.push(this.randomAlfabet ())
       }
@@ -24,5 +24,3 @@ class BoggleBoard{
 var bogle=new BoggleBoard();
 bogle.shake(5);
 console.log(bogle.board);
-//console.log(bogle.randomAlfabet());
-//console.log(bogle.alfabet.length);
